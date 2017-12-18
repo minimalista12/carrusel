@@ -1,2 +1,0 @@
-# carrusel
-ejercicio practico jquery
