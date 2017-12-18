@@ -1,0 +1,63 @@
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box; }
+
+ul, ol {
+	list-style: none;
+}
+
+body {
+	font-family: Open Sans;
+}
+
+
+.slideshow{
+	width: 100%;
+	position: relative;
+}
+
+.slider li, ul {
+	width: 100%;
+}
+
+.slider li img {
+	width: 100%;
+}
+
+.pagination {
+	position: absolute;
+	top:103%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.pagination li {
+	font-size: 52px;
+	margin: 2px 5px;
+	color: purple;
+	cursor: pointer;
+
+}
+
+.left, .right {
+	position: absolute;
+	top:0;
+	height: 100%;
+
+	display:flex;
+	align-items: center;
+	color:white;
+	font-size: 40px;
+}
+
+.left {
+	left:10px;
+
+}
+
+.right {
+	right: 10px;
+}
